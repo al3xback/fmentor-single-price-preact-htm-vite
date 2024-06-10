@@ -1,0 +1,111 @@
+.sections,
+.group,
+.section,
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.sections {
+	width: 100%;
+	background-color: #fff;
+	margin: 3rem 0 6rem;
+	border-radius: 8px;
+	box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+}
+
+.section {
+	padding: 2.6rem 2.4rem;
+}
+
+.section-monthly-subsription,
+.section-why-us {
+	color: #e5eff5;
+}
+
+.section-monthly-subsription {
+	background-color: #2ab2af;
+}
+
+.section-why-us {
+	background-color: #4bbebc;
+}
+
+.title {
+	margin-bottom: 2rem;
+}
+
+.subtitle {
+	margin-bottom: 1.2rem;
+	font-weight: 700;
+	color: #c0df34;
+	line-height: 1.5;
+}
+
+.section-join-community .desc {
+	font-size: 1.5rem;
+}
+
+.group .title {
+	margin-bottom: 1.8rem;
+	color: inherit;
+}
+
+.price {
+	display: flex;
+	align-items: center;
+	margin-top: -0.6rem;
+	font-size: 1.6rem;
+}
+
+.price .num {
+	margin-right: 1.2rem;
+	font-size: 3.1rem;
+	font-weight: 700;
+}
+
+.price .label {
+	color: rgba(229, 239, 245, 0.75);
+}
+
+.section-monthly-subsription .desc {
+	margin-bottom: 3rem;
+}
+
+.list {
+	gap: 0.3rem;
+	font-size: 1.4rem;
+	line-height: 1.4;
+}
+
+@media (min-width: 48em) {
+	.sections {
+		max-width: 64rem;
+	}
+
+	.section {
+		padding: 3.8rem 4rem;
+	}
+
+	h2.title {
+		font-size: 2.4rem;
+		margin-bottom: 2.4rem;
+	}
+
+	.subtitle {
+		font-size: 1.8rem;
+	}
+
+	.section-join-community .desc {
+		font-size: inherit;
+	}
+
+	.group {
+		flex-direction: row;
+	}
+
+	.group .section {
+		width: 50%;
+	}
+}
