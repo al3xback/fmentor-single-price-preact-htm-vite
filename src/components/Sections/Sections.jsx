@@ -26,14 +26,10 @@ export default function Sections() {
 					<span class=${styles.num}>$29</span>
 					<span class=${styles.label}>per month</span>
 				</p>
-				<p class=${styles.desc}>
-					Full access for less than $1 a day
-				</p>
+				<p class=${styles.desc}>Full access for less than $1 a day</p>
 				<a href="#" class="btn btn--primary btn--full"> Sign Up </a>
 			</section>
-			<section
-				class=${`${styles.section} ${styles['section-why-us']}`}
-			>
+			<section class=${`${styles.section} ${styles['section-why-us']}`}>
 				<h3 class=${styles.title}>Why Us</h3>
 				<ul class=${styles.list}>
 					<li>Tutorials by industry experts</li>
